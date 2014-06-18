@@ -1,11 +1,13 @@
 DTCM
 ====
 
-Dynamic Threshold Cloud-Masking Algorithm in Python and Matlab
+This project is the implementation of the Dynamic Threshold Cloud-Masking Algorithm proposed by Alan V. Vittorio and Willian J. Emery. More detail about the algorithm is at the paper "An Automated, Dynamic Threshold Cloud-Masking Alogrithm for Daytime AVHRR Images Over Land".
 
-The Matlab code was part of my undergraduate thesis work. It may not be very readable.
+There are two versions of the algorithm:
 
-The latter python code was a python practise. It was a rewrite of the Matlab code and should be more readable.
+1) The Matlab code was part of my undergraduate thesis work. Since it is the very first version, it is too complex and not very readable. If you want to work on this version, start from the DTCM_Classic.m file and you do need a loooooooooot of modification.
+
+2) The latter python code was a rewrite of the matlab code. It is much shorter and readable. I highly recommend to start on this version.
 
 If you have any problem about the code and the algorithm, feel free to contact me.
 
